@@ -39,7 +39,7 @@ plasma:
 montecarlo:
   seed: 23111963
   no_of_packets: 40000
-  iterations: 1
+  iterations: 30
   nthreads: 1
 
   last_no_of_packets: 100000
@@ -57,4 +57,3 @@ spectrum:
   stop: 10000 angstrom
   num: 10000
   method: integrated
-  compute: GPU
